@@ -14,7 +14,7 @@ while(not acertou):
     chute = input("digite uma letra ")
     indice = 0
     for letra in palavra:
-        if chute == letra:
+        if chute.upper() == letra:
             letras_acertadas[indice] = letra
         indice = indice + 1 
 
